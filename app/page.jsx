@@ -22,11 +22,11 @@ export default function Home() {
           <h2 className="text-3xl font-semibold mb-4">About OpenDIRT</h2>
           <p className="mb-4">
             OpenDIRT is an open initiative for defining, measuring, and improving the productivity of AI agent infrastructure. 
-            The acronym <strong>DIRT</strong> stands for <em>Data In Remote Transit</em> —  the non-productive movement of data that occurs as agents reason, call tools, and exchange context across systems.
+            The acronym <strong>DIRT</strong> stands for <em>Data In Remote Transit</em> -  the non-productive movement of data that occurs as agents reason, call tools, and exchange context across systems.
           </p>
           <p>
             The project’s goal is to provide a rigorous, open framework for quantifying system inefficiency. 
-            DIRT does not measure model intelligence — it measures orchestration quality: how well an agent /architecture minimizes redundant work, unnecessary transfers, and orchestration overhead.
+            DIRT does not measure model intelligence - it measures orchestration quality: how well an agent /architecture minimizes redundant work, unnecessary transfers, and orchestration overhead.
           </p>
         </section>
 
@@ -45,7 +45,7 @@ export default function Home() {
   <p className="mt-4">
     A low DIRT value means a system is efficient and most of its data movement directly contributes to useful output. 
     A high DIRT value indicates wasted motion—too many calls, too much context passed around, or poor system design. 
-    DIRT does not measure intelligence. It measures productivity — how well the architecture and engineering of an agent system convert data movement into real output.
+    DIRT does not measure intelligence. It measures the productivity-how well the architecture and engineering of an agent system convert data movement into real output.
   </p>
 </section>
 
@@ -107,7 +107,7 @@ export default function Home() {
 
       <footer className="border-t border-gray-200 mt-16 bg-white">
         <div className="mx-auto max-w-5xl px-4 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
-          <div>© {new Date().getFullYear()} OpenDIRT.org — An Open Research Initiative</div>
+          <div>© {new Date().getFullYear()} OpenDIRT.org - An Open Research Initiative</div>
           <div className="space-x-4 mt-2 md:mt-0">
             <a href="#" className="hover:underline">Specification</a>
             <a href="#" className="hover:underline">Publications</a>
@@ -118,6 +118,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
