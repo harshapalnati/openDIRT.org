@@ -45,7 +45,7 @@ export default function Home() {
   <p className="mt-4">
     A low DIRT value means a system is efficient and most of its data movement directly contributes to useful output. 
     A high DIRT value indicates wasted motion—too many calls, too much context passed around, or poor system design. 
-    DDIRT does not measure intelligence. It measures productivity — how well the architecture and engineering of an agent system convert data movement into real output.
+    DIRT does not measure intelligence. It measures productivity — how well the architecture and engineering of an agent system convert data movement into real output.
   </p>
 </section>
 
@@ -118,6 +118,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
