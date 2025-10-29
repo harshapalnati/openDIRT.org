@@ -22,7 +22,7 @@ export default function Home() {
           <h2 className="text-3xl font-semibold mb-4">About OpenDIRT</h2>
           <p className="mb-4">
             OpenDIRT is an open initiative for defining, measuring, and improving the productivity of AI agent infrastructure. 
-            The acronym <strong>DIRT</strong> stands for <em>Data In Remote Tramsit</em> —  the non-productive movement of data that occurs as agents reason, call tools, and exchange context across systems.
+            The acronym <strong>DIRT</strong> stands for <em>Data In Remote Transit</em> —  the non-productive movement of data that occurs as agents reason, call tools, and exchange context across systems.
           </p>
           <p>
             The project’s goal is to provide a rigorous, open framework for quantifying system inefficiency. 
@@ -118,5 +118,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
