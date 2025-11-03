@@ -22,7 +22,7 @@ export default function Home() {
           <h2 className="text-3xl font-semibold mb-4">About OpenDIRT</h2>
           <p className="mb-4">
             OpenDIRT is an open initiative for defining, measuring, and improving the productivity of AI agent infrastructure. 
-            The acronym <strong>DIRT</strong> stands for <em>Data In Remote Tramsit</em> —  the non-productive movement of data that occurs as agents reason, call tools, and exchange context across systems.
+            The acronym <strong>DIRT</strong> stands for <em>Data In Remote Transit</em> —  the non-productive movement of data that occurs as agents reason, call tools, and exchange context across systems.
           </p>
           <p>
             The project’s goal is to provide a rigorous, open framework for quantifying system inefficiency. 
@@ -86,6 +86,20 @@ export default function Home() {
             <li>Normalizing results across sessions, clouds, and frameworks.</li>
             <li>Publishing open datasets and benchmarks for comparison.</li>
           </ol> */}
+          <p className="mt-4">
+            The OpenDIRT working group develops a standardized protocol for evaluating agent productivity through progressively complex benchmark tiers.
+          </p>
+          <p className="mt-4">
+            Each participating system is required to solve approximately 90 benchmark questions organized into three levels:
+          </p>
+          <ul className="list-disc pl-6 mt-4 space-y-1">
+            <li><strong>DIRT Simple</strong>: foundational reasoning and execution tasks that test baseline efficiency.</li>
+            <li><strong>DIRT Analytic</strong>: coding, data manipulation, or analytical tasks that assess computation and tool-use efficiency.</li>
+            <li><strong>DIRT Research</strong>: multi-system or data-driven challenges that require sustained reasoning, retrieval, and synthesis across larger contexts.</li>
+          </ul>
+          <p className="mt-4">
+            For every task, the system needs to record the total amount of data moved, including bytes transferred, context exchanged, and external tool calls. This measurement captures how much remote interaction is required to complete a task. A lower DIRT score reflects a more efficient and locality-aware agent with minimal remote overhead.
+          </p>
          
         </section>
 
@@ -107,7 +121,7 @@ export default function Home() {
 
       <footer className="border-t border-gray-200 mt-16 bg-white">
         <div className="mx-auto max-w-5xl px-4 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
-          <div>© {new Date().getFullYear()} OpenDIRT.org — An Open Research Initiative</div>
+          <div>© {new Date().getFullYear()} OpenDIRT.org - An Open Research Initiative by Ractorlabs</div>
           <div className="space-x-4 mt-2 md:mt-0">
             <a href="#" className="hover:underline">Specification</a>
             <a href="#" className="hover:underline">Publications</a>
