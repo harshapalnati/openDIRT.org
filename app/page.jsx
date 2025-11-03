@@ -26,7 +26,7 @@ export default function Home() {
           </p>
           <p>
             The project’s goal is to provide a rigorous, open framework for quantifying system inefficiency. 
-            DIRT does not measure model intelligence — it measures orchestration quality: how well an agent /architecture minimizes redundant work, unnecessary transfers, and orchestration overhead.
+            DIRT does not measure model intelligence - it measures orchestration quality: how well an agent /architecture minimizes redundant work, unnecessary transfers, and orchestration overhead.
           </p>
         </section>
 
@@ -45,7 +45,7 @@ export default function Home() {
   <p className="mt-4">
     A low DIRT value means a system is efficient and most of its data movement directly contributes to useful output. 
     A high DIRT value indicates wasted motion—too many calls, too much context passed around, or poor system design. 
-    DDIRT does not measure intelligence. It measures productivity — how well the architecture and engineering of an agent system convert data movement into real output.
+    DIRT does not measure intelligence. It measures the productivity-how well the architecture and engineering of an agent system convert data movement into real output.
   </p>
 </section>
 
@@ -132,5 +132,8 @@ export default function Home() {
     </div>
   );
 }
+
+
+
 
 
